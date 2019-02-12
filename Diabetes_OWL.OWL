@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/DIABETES"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Drug/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Drug/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Drug/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/age/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/age/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/age/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_1d/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_1d/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/bp_1d/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_1s/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_1s/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/bp_1s/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_2d/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_2d/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/bp_2d/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_2s/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_2s/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/bp_2s/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/chol/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/chol/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/chol/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/frame/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/frame/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/frame/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/gender/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/gender/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/gender/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/glyhb/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/glyhb/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/glyhb/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/hdl/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/hdl/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/hdl/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/height/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/height/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/height/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/hip/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/hip/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/hip/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/id/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/id/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/id/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/location_1/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/location_1/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/location_1/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/ratio/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ratio/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/ratio/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/stab_glu/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/stab_glu/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/stab_glu/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/time_ppn/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/time_ppn/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/time_ppn/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/waist/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/waist/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/waist/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/weight/DIABETES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/DIABETES_UNIQUE_ROW_ID/DIABETES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/weight/DIABETES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/weight/DIABETES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">403</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Drug/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">11</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/age/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">68</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_1d/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">57</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_1s/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">71</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_2d/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">36</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bp_2s/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">48</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/chol/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">154</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/frame/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">7</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/gender/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/glyhb/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">239</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/hdl/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">77</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/height/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">22</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/hip/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">32</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/id/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">403</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/location_1/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ratio/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">69</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/stab_glu/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">116</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/time_ppn/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">60</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/waist/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">30</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/weight/DIABETES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">140</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:02:12 18:58:40</TIME>
+</rdf:Description>
+
+</rdf:RDF>
